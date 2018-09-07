@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "import Sue Chart",
+      "identifier": "import-sue-chart-identifier",
+      "script": "import-sue-chart.js"
+    }
+  ],
+  "menu": {
+    "title": "sue-to-sketch-plugin",
+    "items": [
+      "import-sue-chart-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "sue-to-sketch-plugin",
+  "identifier": "sue-to-sketch-plugin",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Balz Rittmeyer",
+  "authorEmail": "balz.rittmeyer@gmail.com"
+}
